@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-64 m-auto bg-gradient-to-r from-blue-500 to-green-500 mb-4 animate-gradient" >
+<div class="shadow-lg m-auto w-full p-4">  <button class="border ml-20 mt-10 bg-gray-300 border-base-100 border-2 rounded px-4 py-1 text-black shadow-lg hover:scale-125 duration-300 delay-150 transitiion "><a href="../index.html">Indice</a></button></div>
+
+        <div class="flex items-center justify-center mb-40 mt-20 text-2xl  w-6/12 m-auto">
+  
+      <table class="border-collapse border border-green-400 h-10 mb-40">
+        <thead>
+          <tr class="bg-green-100">
+            <th class="border border-green-600 border-8 border-double border-double py-2 px-4">Tipo</th>
+            <th class="border border-green-600 border-8 border-double py-2 px-4">Unidad</th>
+            <th class="border border-green-600 border-8 border-double py-2 px-4">Valor</th>
+            <th class="border border-green-600 border-8 border-double py-2 px-4">Características</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">Absolutas</td> <!--Tipo-->
+            <td class="border border-green-600 border-8 border-double py-2 px-4">px</td><!--Unidad-->
+            <td class="border border-green-600 border-8 border-double py-2 px-4">1 px=0.26mm</td><!--Valor-->
+            <td class="border border-green-600 border-8 border-double py-2 px-4">Es una medida fija. que en gral se utiliza para valores pequeños</td><!--Caracteristicas-->
+          </tr>
+        
+          <tr>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">Relativas</td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">em</td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">1 em=+-16px</td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">es el tamaño establecido por el navegador</td>
+          </tr>
+      
+          <tr>
+            <td class="border border-green-600 border-8 border-double py-2 px-4"></td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">ex</td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">1/2 em</td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">es la mitad del tamaño establecido por el navegador</td>
+          </tr>
+       
+          <tr>
+            <td class="border border-green-600 border-8 border-double py-2 px-4"></td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">ch</td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">1 ch (zero width)</td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">tamaño del ancho 0 </td>
+          </tr>
+         
+          <tr>
+            <td class="border border-green-600 border-8 border-double py-2 px-4"></td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">rem</td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">root em</td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4">personalizado-es fijo</td>
+          </tr>
+  
+          <tr>
+            <td class="border border-green-600 border-8 border-double py-2 px-4"></td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4"> %</td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4"> (herencia)</td>
+            <td class="border border-green-600 border-8 border-double py-2 px-4"> tamaño relativo al elemento padre </td>
+</tr>
+<tr>
+  <td class="border border-green-600 border-8 border-double py-2 px-4">Flexibles</td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> vw</td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> 1 % =1 viewport width</td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> del ancho del navegador </td>
+</tr>
+<tr>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"></td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> vh</td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> 1 % =1 viewport height</td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> del alto del navegador</td>
+</tr>
+<tr>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"></td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> vmin</td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> viewport minimun</td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> del ancho y alto del navegador</td>
+</tr>
+<tr>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"></td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> vmax</td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> viewport maximun</td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4">del ancho y alto del navegador</td>
+</tr>
+<tr>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"></td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> fr</td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> fraction</td>
+  <td class="border border-green-600 border-8 border-double py-2 px-4"> una parte se usa en Grid</td>
+</tr>
+</tbody>
+  </table>
+
+</div>
+</body>
+</html>
