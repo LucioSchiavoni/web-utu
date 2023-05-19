@@ -4,16 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paginas-web</title>
+    <title>Lucio Schiavoni</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
-<body >
-    <div class="flex gap-10 bg-base-100 m-auto w-80 mt-20 grid grid-cols-1 text-white  max-[378px]:bg-black text-center p-8">
-    Indice 
-<a href="./pagina-gato/index.html"><button class="btn bg-white border shadow-lg border-2 text-black rounded hover:scale-125 duration-300 delay-150 transitiion w-20 h-10">Gatos</button></a>
-<a href="./pagina-tabla/index.html"><button class="btn bg-white border-2 shadow-lg text-black rounded hover:scale-125 duration-300 delay-150 transitiion w-20 h-10">Tablas</button></a>
-    <a href="./pagina-cajas/cajas.html"><button class="btn bg-white border border-2 shadow-lg text-black rounded hover:scale-125 duration-300 delay-150 transitiion w-20 h-10">Cajas</button></a>
+
+<body class="h-screen   ">
+  <video  autoplay loop muted>  
+  <source src="https://assets.mixkit.co/videos/preview/mixkit-artist-mixing-paint-on-a-palette-41611-large.mp4" type="video/mp4">
+</video>
+  
+<div class="flex flex-col w-auto gap-36  h-full lg:flex-row  ">
+  <div class="w-72  text-white font-bold h-full ">
+ 
+    <ul class="border p-2 border-sky-900 shadow-xl shadow-black glass text-black bg-opacity-80 grid flex-grow h-full w-auto  place-items-center">
+    <li class="glass hover:bg-transparent border shadow-lg  hover:scale-125 transition duration-300 delay-150   p-3  w-10/12 text-center rounded-xl text-3xl "><a>Animaciones</a></li>
+    <li class="glass hover:bg-transparent border shadow-xl   hover:scale-125 transition duration-300 delay-150 p-3 w-10/12 text-center rounded-xl text-3xl"><a>Cajas</a></li>
+    <li class="glass hover:bg-transparent border shadow-xl   hover:scale-125 transition duration-300 delay-150  p-3  w-10/12 text-center rounded-xl text-3xl"><a>Tablas</a></li>
+  </ul>
+
 </div>
+
+<div class="grid-cols-1 content">
+    <aside class="flex mb-20">
+      <img src="./pagina-gato/gato.JPG" class="rounded-full border hover:scale-125 transition duration-300 delay-150  w-40 shadow-black shadow-xl  mt-20 " alt="">
+      <p class="text-center text-5xl mt-20 ml-10"> 👋</p>
+     <h1 class="p-4 text-6xl text-center w-full mt-10 mb-20 font-google bg-gradient-to-r from-white to-white bg-clip-text text-transparent animate-gradient"><span id="element"></span></h1>
+   
+  </aside>
+     <div class="grid grid-cols-3  gap-10 text-center">
+    
+     <div class="w-80 mt-10 ">
+      <article class=" rounded-xl bg-sky-900 bg-opacity-60 hover:scale-125 transition duration-300 delay-150 hover:w-auto p-3 h-64">
+        <span class="material-symbols-outlined text-9xl" >
+     <a href="./pagina-gato/index.html">  animation</a>
+          </span>
+<h2 class="text-3xl text-white font-bold mt-10"> Animaciones</h2>
+      </article>
+     </div>
+     <div class="w-80 mt-10">
+      <article class="bg-sky-900  bg-opacity-60 rounded-xl p-3 h-64 hover:scale-125 transition duration-300 delay-150">
+        <span class="material-symbols-outlined text-9xl">
+        <a href="./pagina-cajas/cajas.html">  inventory_2</a>
+          </span>
+<h2 class="text-3xl text-white font-bold mt-10">Cajas</h2>
+      </article> 
+     </div>
+     <div class="w-80 mt-10">
+      <article class="bg-sky-900 bg-opacity-60 rounded-xl p-3 h-64 hover:scale-125 transition duration-300 delay-150">
+        <span class="material-symbols-outlined text-9xl">
+         <a href="./tablas/index.html"> table_chart</a>
+          </span>
+<h2 class="text-3xl text-white font-bold mt-10">Tablas</h2>
+      </article>
+     </div>
+    </div>
+    </div>
+  </div> 
+
+
+
+   
+<script>
+  var typed = new Typed('#element', {
+    strings: ["Hola! soy Lucio Schiavoni.", "Desarrollador Full stack.", "Estudiante de UTU."],
+    loop:true,
+    typeSpeed: 50,
+  });
+</script>
 
 </body>
 </html>

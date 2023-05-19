@@ -1,0 +1,41 @@
+.text-item{
+    color:blanchedalmond;
+}
+
+.material-symbols-outlined {
+ 
+color: aliceblue;
+
+}
+
+.font-google{
+    font-family: 'Righteous', cursive;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+  overflow: hidden;
+}
+
+video{
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        background-size: fixed;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    color: white;
+    text-align: center;
+}
