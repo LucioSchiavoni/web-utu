@@ -1,0 +1,68 @@
+body{
+    background:linear-gradient(#1f08a0b1, #098175);
+}
+
+.form-item{
+    width: 40rem;
+    margin: auto;
+    margin-top: 10rem;
+    margin-left: 35rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  /* Evita que el input se redimensione por las flechas */
+  -moz-appearance: textfield;
+}
+
+input{
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.item{
+ margin: auto;
+ width: 30%;
+ margin-top: 10rem;
+ background-color: rgb(248, 248, 248);
+ padding: 10rem;
+ color: rgb(0, 0, 0);
+ border-radius: 2rem;
+  
+}
+
+.item-label{
+    width: 20rem;
+    margin:auto ;
+}
+.fecha-item{
+    display: flex;
+    gap: 2rem;
+}
+
+fieldset{
+    margin-bottom: 2rem;
+    width: 20rem;
+}
+
+.check-item{
+    display: grid;
+    grid-template-columns: 1;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    padding: 10px;
+    width: 5rem;
+    border-radius: 10px;
+    margin-left: 10rem;
+    color:black;
+}
